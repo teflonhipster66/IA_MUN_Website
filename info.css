@@ -1,0 +1,28 @@
+h2 {
+    font-size: 4rem;
+    text-align: center;
+}
+
+h3 {
+    width: 2rem;
+    font-size: 6rem;
+}
+
+.content  {
+    padding: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 3rem;
+}
+
+.content img {
+    width: min(400px, 100%);
+    border-radius: 1.5rem;
+    border: 2px solid  #3e3e3e;
+}
+
+.content p {
+    width: 80vmin;
+    font-size: 1.25rem;
+}
