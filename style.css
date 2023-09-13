@@ -134,7 +134,7 @@ section {
     /* background-image: url("MUN/PXL-20230304-151549172.MP.jpg");
     background-size: cover; */
     background-color: white;
-    font-size: 1.25rem;
+    font-size: 100%;
     padding: 2rem;
     text-align: center;
 
@@ -148,12 +148,16 @@ section {
 }
 
 #testimonials h2 {
-    color:white;
-    background-color: rgba(0,0,0,.5); 
+    color:black;
     border-radius: 60%;
     width: max-content  - .5rem;
     height: 10rem;
     padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+
+#testimonials p {
+    font-size: 1.25rem;
 }
 
 .card {
@@ -175,9 +179,6 @@ section {
 #testimonials p {
     opacity: 0;
 }
-
-
-
 
 
 #contact {
